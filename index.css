@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 60%;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: rgb(30, 30, 30);
+    min-width: 600px;
+    border-radius: 10px 10px;
+}
+
+.text-main-name {
+    margin: 60px;
+    color: darkgray;
+}
+
+.text-main {
+    margin: -20px 30px;
+    color: darkgray;
+}
+
+.text-header-name {
+    text-align: center;
+    color: white
+}
+
+.text-footer {
+    margin: 10px 22%;
+    color: white;
+}
