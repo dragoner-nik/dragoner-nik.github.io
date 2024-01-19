@@ -4,7 +4,7 @@
 
 .cont {
     height: 50px;
-    width: 1200px;
+    width: 90%;
     margin: auto;
 
     border-radius: 10px;
@@ -20,7 +20,8 @@
     width: 100px;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 1092px;
+    margin-left: calc(99.5% - 100px);
+
 
     border-radius: 6px;
 
