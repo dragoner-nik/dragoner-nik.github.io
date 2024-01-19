@@ -1,0 +1,9 @@
+/* .block:hover {
+    margin: auto 1000px;
+} */
+
+@keyframes palzunok {
+    0%{
+        margin-left: 8px;
+    }
+}

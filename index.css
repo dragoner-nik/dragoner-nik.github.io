@@ -1,33 +1,36 @@
-body {
-    background-color: black;
-    margin: 0;
-}
-
 .wrapper {
-    max-width: 60%;
-    margin: 0 auto;
-    height: 100vh;
-    background-color: rgb(30, 30, 30);
-    min-width: 600px;
-    border-radius: 10px 10px;
+    display: flex;
 }
 
-.text-main-name {
-    margin: 60px;
-    color: darkgray;
+.cont {
+    height: 50px;
+    width: 1200px;
+    margin: auto;
+
+    border-radius: 10px;
+    border:  3px solid rgb(9, 9, 9);
+
+    display: flex;
+
+    background-color: rgb(31, 31, 31);
 }
 
-.text-main {
-    margin: -20px 30px;
-    color: darkgray;
-}
+.block {
+    height: 34px;
+    width: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1092px;
 
-.text-header-name {
-    text-align: center;
-    color: white
-}
+    border-radius: 6px;
 
-.text-footer {
-    margin: 10px 22%;
-    color: white;
+    background-color: darkgreen;
+
+
+
+    animation-name: palzunok;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
