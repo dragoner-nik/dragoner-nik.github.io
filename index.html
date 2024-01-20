@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="action.css">
     <link rel="stylesheet" href="animation.css">
+
+    <script type="text/javascript" src="./jquery.min.js"></script>
+
     <title>animation</title>
     <style>
         body {
@@ -27,20 +31,44 @@
         <div class="question_container">
             <h1 class="question">Это лучший сайт который ты видел?</h1>
             <div class="yes_or_no">
-                <div class="btn button_0">
-                    <input type="checkbox" />
+                <div class="button_0">
+                    <input type="checkbox" class="big0"/>
                     <h3 class="text">да</h3>
                 </div>
-                <div class="detect_rang_1">
-                    <div class="detect_rang_2">
-                        <div class="button_1">
-                            <input type="checkbox" />
-                            <h3>нет</h3>
-                        </div>
+                <div class="detect">
+                    <div class="button_1">
+                        <input type="checkbox" class="big1" />
+                        <h3>нет</h3>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script>
+        $(".detect").on("mouseover", event => {
+            // console.log(event)
+            $(".button_0").addClass("yes");
+            $(".button_1").addClass("no");
+        })
+        $(".detect").on("mouseleave", event => {
+            // console.log(event)
+            $(".button_0").removeClass("yes");
+            $(".button_1").removeClass("no");
+        })
+    </script>
+
+    <div class="a1">
+        <div class="a2"></div>
+            <h4 class="t2">Короче...</h4>
+            <h4 class="t2">Читы – бан</h4>
+            <h4 class="t2">Кемперство – бан</h4>
+            <h4 class="t2">Оскорбление – бан</h4>
+            <h4 class="t2">Оскорбление администрации – расстрел, потом бан</h4>
+            <h4 class="t2">Всем удачи...</h4>
+        </div>
+    </div>
 </body>
 </html>
+
+<!-- type="checkbox" -->

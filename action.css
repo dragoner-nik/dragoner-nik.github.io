@@ -9,7 +9,7 @@
 
 .yes_or_no {
     display:flex;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 
 .button_0 {
@@ -24,11 +24,14 @@
     color: lime;
 }
 
-.detect_rang_1:hover > .detect_rang_2 {
-    transform: translate(0px, 150px);
+.detect {
+    z-index: 1;
 }
 
-.detect_rang_2:hover > .button_1 {
-    transform: translate(0px, 0px);
+.yes {
+    transform: translate(684%);
 }
 
+.no {
+    transform: translate(-551%);
+}
