@@ -18,17 +18,17 @@
 
 .button_1 {
     display: flex;
-    /* transform: translate(0px, 15px); */
 }
 
 .text {
     color: lime;
 }
 
-.button {
-    width: 20px;
+.detect_rang_1:hover > .detect_rang_2 {
+    transform: translate(0px, 150px);
 }
 
-.detect:hover > .button_1 {
-    transform: translate(0px, 100px);
+.detect_rang_2:hover > .button_1 {
+    transform: translate(0px, 0px);
 }
+
