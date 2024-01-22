@@ -6,7 +6,6 @@
 
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="action.css">
-    <link rel="stylesheet" href="animation.css">
 
     <script type="text/javascript" src="./jquery.min.js"></script>
 
@@ -27,36 +26,55 @@
         </div>
     </div>
 
-    <div class="question_wrapper">
-        <div class="question_container">
-            <h1 class="question">Это лучший сайт который ты видел?</h1>
-            <div class="yes_or_no">
-                <div class="button_0">
-                    <input type="checkbox" class="big0"/>
-                    <h3 class="text">да</h3>
-                </div>
-                <div class="detect">
-                    <div class="button_1">
-                        <input type="checkbox" class="big1" />
-                        <h3>нет</h3>
+    <div class="wrapper-1_task">
+        <div class="wrapper-2_task">
+            <div class="question_container">
+                <h1 class="question">Это лучший сайт который ты видел?</h1>
+            </div>
+
+            <div class="container_task">
+                <div class="layer-1_task">
+                    <div class="half-1_layer-1_task">
+                        <div class="yes_task">
+                            <input type="checkbox" class="button-1_task"/>
+                            <h3 class="text">да</h3>
+                        </div>
+                    </div>
+
+                    <div class="half-2_layer-1_task">
+                        <div class="no_task">
+                            <input type="checkbox" class="button-2_task"/>
+                            <h3 class="text">нет</h3>
+                        </div>
                     </div>
                 </div>
+
+                <div class="layer-2_task">
+                    <div class="half-1_layer-2_task"></div>
+                    <div class="half-2_layer-2_task">
+                        <div class="detect_task"></div>
+                    </div>
+                </div>
+
+                <div class="layer-3_task"></div>
             </div>
         </div>
     </div>
 
+
     <script>
-        $(".detect").on("mouseover", event => {
+        $(".detect_task").on("mouseover", event => {
             // console.log(event)
-            $(".button_0").addClass("yes");
-            $(".button_1").addClass("no");
+            $(".yes_task").addClass("yes");
+            $(".no_task").addClass("no");
         })
-        $(".detect").on("mouseleave", event => {
+        $(".detect_task").on("mouseleave", event => {
             // console.log(event)
-            $(".button_0").removeClass("yes");
-            $(".button_1").removeClass("no");
+            $(".yes_task").removeClass("yes");
+            $(".no_task").removeClass("no");
         })
     </script>
+
 
     <div class="a1">
         <div class="a2"></div>

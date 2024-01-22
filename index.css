@@ -47,3 +47,10 @@
     text-align: center;
     color: darkred;
 }
+
+@keyframes palzunok {
+    0%{
+        margin-left: 0%;
+        background-color: lime;
+    }
+}
