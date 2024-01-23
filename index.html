@@ -36,7 +36,7 @@
                 <div class="layer-1_task">
                     <div class="half-1_layer-1_task">
                         <div class="yes_task">
-                            <input type="checkbox" class="button-1_task"/>
+                            <input type="checkbox" class="button-1_task" id="button-1_task" />
                             <h3 class="text">да</h3>
                         </div>
                     </div>
@@ -52,7 +52,9 @@
                 <div class="layer-2_task">
                     <div class="half-1_layer-2_task"></div>
                     <div class="half-2_layer-2_task">
-                        <div class="detect_task"></div>
+                        <div class="detect_task">
+                            <div class="button-000"></div>
+                        </div>
                     </div>
                 </div>
 
@@ -64,15 +66,23 @@
 
     <script>
         $(".detect_task").on("mouseover", event => {
-            // console.log(event)
             $(".yes_task").addClass("yes");
             $(".no_task").addClass("no");
         })
         $(".detect_task").on("mouseleave", event => {
-            // console.log(event)
             $(".yes_task").removeClass("yes");
             $(".no_task").removeClass("no");
         })
+
+        // ?
+        $(".button-000").click(event => {
+            if (!document.getElementById("button-1_task").checked) {
+                document.getElementById("button-1_task").checked = true;
+            } else {
+                document.getElementById("button-1_task").checked = false;
+            }
+        })
+        // ?
     </script>
 
 

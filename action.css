@@ -121,3 +121,15 @@
 .button-2_task {
     z-index: 0;
 }
+
+
+
+.button-000 {
+    height: 13px;
+    width: 13px;
+
+    margin-left: 12px;
+    margin-top: 23.5px;
+
+    /* background-color: rgba(0, 0, 255, 0.144); */
+}
